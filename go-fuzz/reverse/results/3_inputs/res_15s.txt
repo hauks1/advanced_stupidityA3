@@ -1,0 +1,10 @@
+fuzz: elapsed: 0s, gathering baseline coverage: 0/46 completed
+fuzz: elapsed: 0s, gathering baseline coverage: 46/46 completed, now fuzzing with 8 workers
+fuzz: elapsed: 3s, execs: 92625 (30864/sec), new interesting: 1 (total: 47)
+fuzz: elapsed: 6s, execs: 185299 (30900/sec), new interesting: 1 (total: 47)
+fuzz: elapsed: 9s, execs: 281941 (32205/sec), new interesting: 1 (total: 47)
+fuzz: elapsed: 12s, execs: 370707 (29588/sec), new interesting: 1 (total: 47)
+fuzz: elapsed: 15s, execs: 472908 (34078/sec), new interesting: 1 (total: 47)
+fuzz: elapsed: 15s, execs: 472908 (0/sec), new interesting: 1 (total: 47)
+PASS
+ok  	a3/go-fuzz/reverse	15.126s
