@@ -1,0 +1,19 @@
+lockZero = False
+lockOne = False
+
+def thread(self):
+    # See if what thread 
+    if self == 0: 
+        lockOne = True
+    else:
+        lockZero = True
+    # Entering critical zone
+    cs: assert countLabel(cs) == 1
+    # Exiting critical zone
+    if self == 0: 
+        lockOne = False
+    else:
+        lockZero = False
+
+spawn thread(0)
+spawn thread(1)
